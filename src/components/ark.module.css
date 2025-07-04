@@ -1,0 +1,27 @@
+.default {
+  -webkit-text-size-adjust: 100%;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  color: white;
+  box-sizing: border-box;
+  position:relative;
+  height: 10%;
+  top: 130px;
+  margin: auto;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  border: solid 0.15rem rgb(95, 0, 0);
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  border-bottom: none;
+  background: radial-gradient(
+      50% 500% at 50% -420%,
+      rgba(64, 97, 231, 0.4) 80%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    black;
+  background-clip: padding-box;
+  width: 1365px;
+  left: -0.5%;
+}

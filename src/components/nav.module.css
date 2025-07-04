@@ -1,0 +1,40 @@
+.nav {
+  padding-top: 25px;
+  padding-left: 190px;
+  display: flex;
+  align-items: center;
+  img {
+    width: 200px;
+    color: white;
+  }
+  .lang {
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-weight: 500;
+    font-family:sanS;
+    margin-left: 500px;
+    background-color: rgba(0, 0, 0, 0.651);
+    border: 1px solid white;
+    border-radius: 5px;
+    outline-color: wheat;
+    text-align-last: center;
+    margin-right: 0.7rem;
+  }
+  .btn {
+    width: 100px;
+    padding: 10px;
+    color: white;
+    background-color: #e50914;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family:sanS;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover {
+      background-color: #c2010a;
+    }
+  }
+}

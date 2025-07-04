@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1365px;
+  margin: auto;
+}
+
+@font-face {
+  font-family: sanS;
+  src: url(./assets/fonts/Netflix-Sans-regular.woff2);
+}
+@font-face {
+  font-family: sanS-bold;
+  src: url(./assets/fonts/Netflix-Sans-bold.woff2);
+}
+
+body {
+  font-family: sanS;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
