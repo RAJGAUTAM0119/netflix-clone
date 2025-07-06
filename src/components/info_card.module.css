@@ -1,38 +1,48 @@
-.cardArea {
-  font-size: 1.5rem;
-  font-weight: 600;
-  font-family: sanS;
-  display: flex;
-  justify-self: center;
-  color: white;
-  width: 1000px;
+.container {
+  background-color: #1a1a1a;
+  padding: 3rem 1rem;
 }
 
-.card {
+.header {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-  margin-left: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+  padding-left: 2.7rem;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .infoCard {
-  width: 230px;
-  min-height: 470px;
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 10px;
-  margin-right: 30px;
-  margin-bottom: 50px;
-  background: linear-gradient(#1a1e3f, #20101b);
+  background: linear-gradient(#1a2042, #200e18);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.infoCard:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .infoCardHeading {
-  color: white;
-  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 .infoCardPara {
-  color: #bbbbc4;
+  color: #cccccc;
+  font-size: 1rem;
+  line-height: 1.5;
 }
